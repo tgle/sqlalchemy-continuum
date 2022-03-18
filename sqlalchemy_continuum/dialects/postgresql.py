@@ -499,7 +499,7 @@ def create_trigger(
     operation_type_column_name='operation_type',
     version_table_name_format='%s_version',
     excluded_columns=None,
-    use_property_mod_tracking=True,
+    use_property_mod_tracking=False,
     end_transaction_column_name=None,
 ):
     params = dict(
